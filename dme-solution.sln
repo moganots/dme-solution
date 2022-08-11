@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_plus-minus-exercise", "1_plus-minus-exercise", "{53EAA1F8-A14C-48D8-A6FE-DE60537EFDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plus-minus-exercise", "plus-minus-exercise\plus-minus-exercise.csproj", "{94B958B8-5C9A-4474-85B3-8C172195F008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_2d-array-exercise", "2_2d-array-exercise", "{5D21D0AB-C928-4146-B65B-023113235883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2d-array-exercise", "2d-array-exercise\2d-array-exercise.csproj", "{079C7689-A7B8-420A-91EF-72964CC62B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_bigger-is-greater-exercise", "3_bigger-is-greater-exercise", "{8CBF617A-3D8C-4988-A853-CE5481565B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bigger-is-greater-exercise", "bigger-is-greater-exercise\bigger-is-greater-exercise.csproj", "{8B53E61B-49AD-4209-8590-CB0C606FBB8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code_exercises", "code_exercises", "{DE502559-D615-468E-8708-90E7C40BF9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rdbms_exercises", "rdbms_exercises", "{48AF8BA4-921F-4289-9F51-C98DC5D58144}"
+	ProjectSection(SolutionItems) = preProject
+		1_japanese-cities-name.sql = 1_japanese-cities-name.sql
+		2_weather-observation-station-18.sql = 2_weather-observation-station-18.sql
+		3_symmetric-pairs.sql = 3_symmetric-pairs.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B958B8-5C9A-4474-85B3-8C172195F008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B958B8-5C9A-4474-85B3-8C172195F008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B958B8-5C9A-4474-85B3-8C172195F008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B958B8-5C9A-4474-85B3-8C172195F008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079C7689-A7B8-420A-91EF-72964CC62B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079C7689-A7B8-420A-91EF-72964CC62B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079C7689-A7B8-420A-91EF-72964CC62B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079C7689-A7B8-420A-91EF-72964CC62B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B53E61B-49AD-4209-8590-CB0C606FBB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B53E61B-49AD-4209-8590-CB0C606FBB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B53E61B-49AD-4209-8590-CB0C606FBB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B53E61B-49AD-4209-8590-CB0C606FBB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53EAA1F8-A14C-48D8-A6FE-DE60537EFDA0} = {DE502559-D615-468E-8708-90E7C40BF9AA}
+		{94B958B8-5C9A-4474-85B3-8C172195F008} = {53EAA1F8-A14C-48D8-A6FE-DE60537EFDA0}
+		{5D21D0AB-C928-4146-B65B-023113235883} = {DE502559-D615-468E-8708-90E7C40BF9AA}
+		{079C7689-A7B8-420A-91EF-72964CC62B6E} = {5D21D0AB-C928-4146-B65B-023113235883}
+		{8CBF617A-3D8C-4988-A853-CE5481565B95} = {DE502559-D615-468E-8708-90E7C40BF9AA}
+		{8B53E61B-49AD-4209-8590-CB0C606FBB8F} = {8CBF617A-3D8C-4988-A853-CE5481565B95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8360CA5C-E809-45AF-B5D0-15E2125EB744}
+	EndGlobalSection
+EndGlobal
